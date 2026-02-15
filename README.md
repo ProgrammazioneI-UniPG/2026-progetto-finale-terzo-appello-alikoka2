@@ -48,7 +48,7 @@ A differenza di una versione base, il gioco mantiene una "memoria" che persiste 
     - *Totale nemici sconfitti:* somma di tutti i combattimenti vinti da tutti i giocatori.
     - *Totale oggetti raccolti:* conteggio effettivo degli oggetti prelevati dalla mappa e messi nello zaino.
     
-### 7. Sistema di "Hinting" per la Localizzazione del Boss
+### 7. Sistema di "Hinting" per la Localizzazione del Demotorzone
 Durante lo sviluppo, è emersa una criticità logica: poiché il sistema permette di generare mappe dinamiche, il **Demotorzone** (boss finale) potrebbe non trovarsi necessariamente nell'ultima zona del Soprasotto (con le modifiche in impostazioni mappa). Un giocatore nel Mondo Reale potrebbe quindi avanzare fino alla fine della mappa, ignorando di aver già superato il boss nell'altra dimensione.
 
 Per risolvere questo problema e migliorare l'esperienza utente, ho implementato una meccanica di suggerimento:
